@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>B.R.O.T.H.E.R.S. Northern Illinois University | Contact form</title>
+	
+	<!--STYLESHEETS--> 
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!--SCRIPTS--> 
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.2.custom.js"></script>
+	
+</head>
+
+<body class="body" style="background-image: url('img/bg_silver_noise_grey.jpg')">		
+	<header class="mainheader"> 
+		 
+		
+		<nav> <ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a class="active" href="#">About</a></li>
+			<li><a class="active" href="history.html">History</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+			
+		</ul></nav> 
+
+		
+	</header> 
+	
+	<div id="main" role="main">
+      <div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="images/brothers/Brothers_2.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/brothers/Brothers_3.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/brothers/Brothers_4.jpg" />
+		    </li>
+		    <li>
+		      <img src="images/brothers/Brothers_5.jpg" />
+		    </li>
+		    
+		    <!-- items mirrored twice, total of 12 -->
+		  </ul>
+		</div>        
+	</div>
+
+
+	
+	<div class="contactForm"> 				
+	 
+		 <h2>Contact Form</h2> 
+		 
+		 <form class="form"> 
+		  	<p class="name">
+		  		<input type="text" name="name" id="name" placeholder="John Doe"/> 
+		  		<label for="name">Name</label>
+		  	</p> 
+		  	
+		  	<p class="email">
+		  		<input type="text" name="name" id="email" placeholder="mail@example.com"/> 
+		  		<label for="email">Email</label>
+		  	</p> 
+		  	
+		  	<p class="text"> 
+		  		<textarea name="text" placeholder="Write something to us" /></textarea> 
+		  	</p>
+		  	
+		  	<p class="submit"> 
+			  	<input type="submit" value="Send"/> 
+		  	</p>
+		  	
+		 </form> 
+		 
+	</div><!--/contactForm--> 
+		
+	<footer class="mainFooter">
+		<p>Copyright &copy;<a href="#">B.R.O.T.H.E.R.S.NIU.com</a></p> 
+	</footer> 
+	
+	  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript">
+	    $(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    itemWidth: 550,
+	    itemMargin: 6
+	  });
+	  
+	});  
+	</script>
+
+</body> 
+
+</html> 
